@@ -101,8 +101,12 @@ textarea {
 
 /* ============= NAVIGATION ============= */
 
+
+
+
    /* http://www.w3schools.com/howto/howto_js_topnav.asp */    
      /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
 @media screen and (max-width:767px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
@@ -169,7 +173,7 @@ ul.topnav li a:hover {
 
 .logo {
     width:15%;
-    margin:0 -3% 0 16%;
+    margin:0 0 0 16%;
     padding: 0 0 0 0;
     background: #000;
     display: inline-block;
@@ -452,8 +456,7 @@ ul.topnav li a:hover {
     font-family: 'Enriqueta';
     font-size: 1.2em;
     line-height: 1.6em;
-    width:94%;
-    margin: 0 2% 5% 4%;
+    margin: 0 0 5% 5%;
     padding: 0 0 8% 0;
     color:#333;
 }
@@ -503,7 +506,8 @@ ul.topnav li a:hover {
     font-family: 'Open Sans';
     font-size:1em;
     color:#333;
-    margin: 5% 0 0 5%;
+    width:100%;
+    margin: 5% 0 0 0;
     text-align: center;
 }
 
@@ -4535,6 +4539,7 @@ margin: 0 0 5% 15%;
 
 
 } /* close desktop media query*/
+
 
 
 /* ==========================================================================
