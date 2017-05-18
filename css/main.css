@@ -171,6 +171,17 @@ ul.topnav li a:hover {
     margin: 3% 0 0 0;
 }
 
+.banner-logo {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    padding: 3% 0 3% 0;
+}
+
+.banner-logo img {
+    width:100%;
+}
+
+/*
 .logo {
     width:15%;
     margin:0 0 0 16%;
@@ -184,6 +195,7 @@ ul.topnav li a:hover {
     width:100%;
     padding:0;
 }
+
 .name {
     width:60%;
     margin:0 0 0 0;
@@ -216,6 +228,7 @@ ul.topnav li a:hover {
     width:100%;
 }
 
+*/
 
 /* ========= CTA BUTTON ======== */
 
@@ -1653,9 +1666,20 @@ ul.topnav li.icon {display: none;}
 .title-container {
     width:100%;
     margin: 3% 0 0 0;
-    padding: 0 0 5% 0;
+    padding: 0 0 0 0;
 }
 
+.banner-logo {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    padding: 5% 0 5% 0;
+}
+
+.banner-logo img{
+    width: 100%;
+}
+
+/*
 .logo {
     width:15%;
     margin:3% 0 0 16%;
@@ -1698,7 +1722,8 @@ ul.topnav li.icon {display: none;}
     text-align: center;
     margin:0;
 }
-
+*/
+    
 /* ========= CTA BUTTON ======== */
 
 .cta-button {
@@ -2027,7 +2052,7 @@ ul.topnav li.icon {display: none;}
     
 .about-pic {
     width:80%;
-    margin: 0 10% 0 10%;
+    margin: 3% 10% 0 10%;
 }
 
 .about-pic img {
@@ -2171,7 +2196,7 @@ ul.topnav li.icon {display: none;}
     margin: 0 0 5% 5%;
     font-family: 'Open Sans';
     font-weight: 700;
-    padding: 5% 0 0 0;
+    padding: 3% 0 0 0;
     color:#6887f0;
 }
 
@@ -3115,6 +3140,7 @@ margin: 0 0 10% 6%;
 
 
 
+
 @media screen and (min-width:940px) {
 
 /* ========== NAVIGATION ========== */
@@ -3164,10 +3190,22 @@ ul.topnav li.icon {display: none;}
 /* ========== TITLE ========== */
 
 .title-container {
-    width:60%;
-    margin: 3% 20% 0 20%;
+    width:100%;
+    margin: 3% 0 0 0;
     padding: 0 0 0 0;
 }
+    
+.banner-logo {
+    width: 60%;
+    margin: 0 20% 0 20%;
+    padding: 5% 0 0 0;
+}
+
+.banner-logo img{
+    width: 100%;
+}
+    
+/*
 
 .logo {
     width:15%;
@@ -3212,6 +3250,7 @@ ul.topnav li.icon {display: none;}
     margin:0;
 }
 
+    */
 /* ========= CTA BUTTON ======== */
 
 
@@ -3496,56 +3535,62 @@ ul.topnav li.icon {display: none;}
 /* ============== ABOUT PAGE ================*/
 
     
+.about {
+    margin:0; 
+    padding: 0;
+}
+    
 .about-pic {
     width:60%;
     margin: 0 20% 0 20%;
-    }
-    
+}
+
 .about-pic img {
     width:100%;
-    }
-    
+}   
 .philosophy {
-    width:66%;
-    margin: 0 17% 0 17%;
+    width:60%;
+    margin: 0 20% 0 20%;
     background: #fff;
+    padding: 3% 0 5% 0 ;
 }
 
-
-
-.philosophy h3 {
+/*.philosophy h3 {
     font-family: 'Enriqueta';
     font-size: 1.3em;
+    width: 94%;
+    margin: 0 2% 0 4%;
     line-height: 1.6em;
-    padding: 4% 0 4% 0;
+    padding: 4% 0 0 0;
     color: #333;
     letter-spacing: 1.5px;
-}
+}*/
 
 .philosophy p {
     font-family: 'Open Sans';
-    font-size: 1em;
-    padding: 1% 0 2% 0;
-    line-height: 1.8em;
+    font-size: 1.1em;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 3% 0 0 0;
+    line-height: 1.6em;
     color: #333;
 }
 
 .programs {
     width:100%;
-    margin: 0;
+    margin: 0 ;
     background: #6887f0;
-    padding: 0 0 1% 0;
 }
 
 .programs h3 {
     font-family: 'Enriqueta';
-    font-size: 1.2em;
+    font-size: 1.3em;
+    width:60%;
+    margin: 0 20% 0 20%;
     line-height: 1.6em;
     padding: 4% 0 5% 0;
     color: #fff;
     letter-spacing: 1.5px;
-    width:60%;
-    margin: 0 20% 0 20%;
 }
 
 
@@ -3553,7 +3598,7 @@ ul.topnav li.icon {display: none;}
     font-family: 'Open Sans';
     font-weight: 700;
     color:#ffc414;
-    font-size:10em;
+    font-size:1.2em;
     text-decoration: none;
     padding: 3% 0 1% 0;
     border-bottom: 1px #333 solid;
@@ -3561,9 +3606,11 @@ ul.topnav li.icon {display: none;}
 
 .programs p {
     font-family: 'Open Sans';
-    font-size: 1em;
-    padding: 1% 0 8% 0;
-    line-height: 1.8em;
+    font-size: 1.1em;
+    width: 92%;
+    margin: 0 3% 0 5%;
+    padding: 3% 0 0 0;
+    line-height: 1.6em;
     color: #333;
 }
 
@@ -3637,7 +3684,7 @@ ul.topnav li.icon {display: none;}
     font-family: 'Open Sans';
     font-weight: 700;
     font-size:1.3em;
-    padding: 5% 0 3% 0;
+    padding: 0 0 3% 0;
     color:#6887f0;
 }
 
