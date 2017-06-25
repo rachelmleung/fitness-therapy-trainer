@@ -3150,7 +3150,7 @@ margin: 0 0 10% 6%;
 .nav-container {
     width:60%;  
     padding: 3% 0 3% 0;
-    margin:0 10% 0 30%;
+    margin:0 0 0 40%;
     }
     
 ul.topnav {
@@ -3540,19 +3540,12 @@ ul.topnav li.icon {display: none;}
     padding: 0;
 }
     
-.about-pic {
-    width:60%;
-    margin: 0 20% 0 20%;
-}
 
-.about-pic img {
-    width:100%;
-}   
 .philosophy {
     width:60%;
     margin: 0 20% 0 20%;
     background: #fff;
-    padding: 3% 0 5% 0 ;
+    padding: 0 0 5% 0 ;
 }
 
 /*.philosophy h3 {
@@ -3570,8 +3563,8 @@ ul.topnav li.icon {display: none;}
     font-family: 'Open Sans';
     font-size: 1.1em;
     width: 100%;
-    margin: 0 0 0 0;
-    padding: 3% 0 0 0;
+    margin: 0 0 3% 0;
+    padding: 0 0 0 0;
     line-height: 1.6em;
     color: #333;
 }
