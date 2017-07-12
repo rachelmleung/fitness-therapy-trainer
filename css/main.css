@@ -1016,7 +1016,7 @@ margin: 0 0 10% 6%;
 .rates {
     width:100%;
     background: #fff;
-    padding: 0 0 0 0;
+    padding 0 0 0 0;
 }
 
 
@@ -1778,7 +1778,7 @@ ul.topnav li.icon {display: none;}
     width:100%;
     padding: 15% 0 15% 0;
     float:left;
-    margin: 2% 0 0 0;
+    margin 2% 0 0 0;
 }
 
 .footer-contact{
@@ -2519,7 +2519,7 @@ margin: 0 0 10% 6%;
     width:90%;
     margin: 0 5% 0 5%;
     background: #fff;
-    padding: 0 0 5% 0;
+    padding 0 0 5% 0;
 }
 
 
@@ -3142,7 +3142,51 @@ margin: 0 0 10% 6%;
 
 
 @media screen and (min-width:940px) {
+    
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+    
+.flex-nav {
+    margin: 5% 0 5% 0;
+    }
+    
+.flex-nav ul {
+    list-style: none;
+    /*border: 1px solid #bbb;*/
+    display: flex;
+    justify-content: center; /* items centered on main axis, which in this case is left to right, default direction is ROW */
+    }
+    
+    
+.flex-nav li {
+    flex-basis: auto;  
+    justify-content: space-between;
+}
 
+    
+/* Style the links inside the list items */
+.flex-nav li a {
+    /*border: 1px solid #bbb;*/
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 10px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+    
+
+/* Change background color of links on hover */
+.flex-nav li a:hover {
+    color:#fff;
+    background-color: #ffc414;
+    }
+/* ===========================FLEX NAVIGATION =======================*/
+    
+    
 /* ========== NAVIGATION ========== */
     /* http://www.w3schools.com/howto/howto_js_topnav.asp */    
     /* Remove margins and padding from the list, and add a black background color */
@@ -3990,7 +4034,7 @@ margin: 0 0 5% 15%;
     width:70%;
     margin: 12% 15% 0 15%;
     background: #fff;
-    padding: 0 0 5% 0;
+    padding 0 0 5% 0;
 }
 
 
@@ -4205,7 +4249,7 @@ margin: 0 0 5% 15%;
 
 .gym-info {
     width:80%;
-    margin: 5% 10% 0 10%;
+    margin: 5% 10% 5% 10%;
     padding: 1% 0 0 0;
     text-align: center;
 }
