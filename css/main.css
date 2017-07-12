@@ -3138,10 +3138,55 @@ margin: 0 0 10% 6%;
 /* ===== DESKTOP ==== DESKTOP ==== DESKTOP ===== */
 /* ===== DESKTOP ==== DESKTOP ==== DESKTOP ===== */
 
-
+/* ===========================FLEX NAVIGATION =======================*/
 
 
 @media screen and (min-width:940px) {
+
+    
+    
+    
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+    
+.flex-nav {
+    margin: 5% 0 5% 0;
+    }
+    
+.flex-nav ul {
+    list-style: none;
+    /*border: 1px solid #bbb;*/
+    display: flex;
+    justify-content: center; /* items centered on main axis, which in this case is left to right, default direction is ROW */
+    }
+    
+    
+.flex-nav li {
+    flex-basis: auto;  
+    justify-content: space-between;
+}
+
+    
+/* Style the links inside the list items */
+.flex-nav li a {
+    /*border: 1px solid #bbb;*/
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 10px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+    
+
+/* Change background color of links on hover */
+.flex-nav li a:hover {
+    color:#fff;
+    background-color: #ffc414;
+    }
 
 /* ========== NAVIGATION ========== */
     /* http://www.w3schools.com/howto/howto_js_topnav.asp */    
