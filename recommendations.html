@@ -10,7 +10,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -44,6 +44,7 @@
         
   <div class="wrapper">
              <nav class="flex-nav">
+                 <a href="#" class="toggleNav">Menu &nbsp; ☰</a>
                  <ul>
                   <li><a href="/home.html">Home</a></li>
                   <li><a href="/about.html">About</a></li>
@@ -55,6 +56,7 @@
                 </ul>
             </nav>
         </div>
+        
     <div class="recommendation-body">
         
             <div class="section-title">
@@ -137,6 +139,12 @@
                     </div>
                 </div>
             </div>
+        
+    <script>
+        $('.toggleNav').click(function(){
+                $('.flex-nav ul').toggleClass('open');
+            });
+    </script>  
         
 
                

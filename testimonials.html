@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Enriqueta|Open+Sans:400,700|Cormorant+Garamond:300i" rel="stylesheet"> 
     </head>
@@ -45,6 +46,7 @@
 
   <div class="wrapper">
              <nav class="flex-nav">
+                 <a href="#" class="toggleNav">Menu &nbsp; ☰</a>
                  <ul>
                   <li><a href="/home.html">Home</a></li>
                   <li><a href="/about.html">About</a></li>
@@ -56,7 +58,7 @@
                 </ul>
             </nav>
         </div>
-
+        
         
         
             <div class="testimonials">       
@@ -181,7 +183,13 @@
                 </div>
             </div>
         
-        
+    <script>
+        $('.toggleNav').click(function(){
+                $('.flex-nav ul').toggleClass('open');
+            });
+    </script>  
+            
+       
   <!-- Everything after this is boilerplate -->       
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
