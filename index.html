@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Enriqueta|Open+Sans:400,700" rel="stylesheet"> 
     </head>
@@ -41,20 +42,22 @@
                 <img src='img/logo-banner.jpg' />
             </div>
         
-             <div class="nav-container">
-                 <ul class="topnav" id="myTopnav">
-                  <li><a href="/index.html">Home</a></li>
+  <div class="wrapper">
+             <nav class="flex-nav">
+                 <a href="#" class="toggleNav">Menu &nbsp; ☰</a>
+                 <ul>
+                  <li><a href="#">Home</a></li>
                   <li><a href="/about.html">About</a></li>
                   <li><a href="/services.html">Services</a></li>
                   <li><a href="/testimonials.html">Testimonials</a></li>
                   <li><a href="/rates.html">Rates</a></li>
                   <li><a href="/contact.html">Contact</a></li>
-                  <li class="icon">
-                    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-                  </li>
+
                 </ul>
-            </div>
+            </nav>
+        </div>
         
+
         
                 <div class="bio-pic">
                     <div class="banner">
@@ -206,18 +209,15 @@
         
             </div>
         
-                <script type="text/javascript">       
-                    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+    <script>
+        $('.toggleNav').click(function(){
+                $('.flex-nav ul').toggleClass('open');
+            });
+    </script>  
         
+        
+
+    
   <!-- Everything after this is boilerplate -->       
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

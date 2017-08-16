@@ -253,7 +253,7 @@ a:hover {
 
 .cta-button {
     width:70%;
-    margin: 0 0 0 0;
+    margin: 0 0 5% 0;
     padding: 10% 0 10% 0;
 }
 
@@ -346,8 +346,9 @@ a:hover {
 }
 
 .footer-nav ul li a:hover {
-    padding: 0 0 1px 0;
+    padding: 3px 0 3px 0;
     border-bottom:  1px #333 solid;
+    background: none;
 }
 
 .footer-subnav {
@@ -370,8 +371,9 @@ a:hover {
 }
 
 .footer-subnav ul li a:hover {
-        padding: 0 0 1px 0;
+        padding: 3px 0px 3px 0px;
         border-bottom:  1px #333 solid;
+    background: none;
 }
 
 .footer-copyright {
@@ -3089,6 +3091,9 @@ margin: 0 0 10% 6%;
 .policy-text {
     width:90%;
     margin: 0 5% 0 5%;       
+}
+    
+.policy-text h4 {      
 }
 
 
